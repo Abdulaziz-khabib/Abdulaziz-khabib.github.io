@@ -251,5 +251,45 @@ border-radius: 5px;
     justify-content: space-between;
 }
 @media (max-width:768px){
-    
+    img{
+        width: 100%;
+    }
+    .many{
+    flex-direction: column;    
+    }
+    .right_many{
+        width: 500px;
+    }
+    .folly{
+       width:150px;
+    }
+    .lgbt{
+        width: 50px;
+    }
+    .left_many{
+      text-align: center;
+    }
+    .tepa{
+        text-align: center;
+    }
+}
+@media (max-width:425px){
+    .ong_nav{
+        display: flex;
+        margin-left: 225px;
+    }
+    .right_many{
+        width: 300px;
+    }
+    .man{
+        font-size: 20px;
+    }
+    .folly{
+        width:100px;
+        text-align: center;
+        font-size: 20px;
+     }
+     .loa{
+         font-size: 20px;
+     }
 }
